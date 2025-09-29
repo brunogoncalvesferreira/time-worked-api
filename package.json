@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file .env src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "@types/node": "^24.5.2",
+    "fastify": "^5.6.1",
+    "tsup": "^8.5.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.16.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}

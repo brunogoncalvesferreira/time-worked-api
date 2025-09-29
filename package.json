@@ -12,10 +12,13 @@
   "license": "ISC",
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
+    "@fastify/swagger": "^9.5.2",
     "@prisma/client": "^6.16.2",
+    "@scalar/fastify-api-reference": "^1.36.1",
     "@types/node": "^24.5.2",
     "fastify": "^5.6.1",
-    "tsup": "^8.5.0"
+    "tsup": "^8.5.0",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "prisma": "^6.16.2",

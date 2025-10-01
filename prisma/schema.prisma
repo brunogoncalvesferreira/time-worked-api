@@ -6,3 +6,16 @@ datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
+model HoursWorked {
+  id               String   @id @default(uuid())
+  collaborator     String
+  startTime        DateTime
+  endTime          DateTime
+  daytimesMinutes  Int
+  nightimesMinutes Int
+
+  createdAt DateTime @default(now())
+
+  @@map("hours_worked")
+}
